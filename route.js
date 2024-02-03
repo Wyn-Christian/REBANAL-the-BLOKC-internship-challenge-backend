@@ -12,7 +12,6 @@ router.get("/demo", async (req, res) => {
     chain,
   });
 
-  // Format the native balance formatted in ether via the .ether getter
   const native = response.result.balance.ether;
 
   res.status(200).json({ native });

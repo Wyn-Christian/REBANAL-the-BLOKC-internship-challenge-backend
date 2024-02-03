@@ -14,7 +14,18 @@ app.get("/", (req, res) => {
   res.send("Hello The BLOKC!");
 });
 
+// Routers
 app.use("/", routes);
+
+// Error handler
+app.use(function (err, req, res, next) {
+  res.status(err.status || 500);
+  console.error(err.message);
+
+  res.json({
+    error: err.message,
+  });
+});
 
 const startServer = async () => {
   await Moralis.start({
