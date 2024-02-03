@@ -1,5 +1,17 @@
 # INTERN01-BACKEND-WEB3 Challenge
 
+## Instructions
+
+Create a Node JS Web API that contain the following endpoints:
+
+`/nft/:walletAddress` - This queries a specific wallet on a given blockchain network and returns all owned NFTs
+
+`/balance/:walletAddress` - This returns balance of a specific wallet address on a given blockchain network
+
+You can utilize APIs such as Moralis or you can query using Ethers JS or similar packages.
+
+Submit via GitHub public repository
+
 ## Overview
 
 This repository contains the solution for the INTERN01-BACKEND-WEB3 internship challenge. The goal of this challenge is to create a Node.js Web API with specific endpoints that query a given blockchain network using Moralis.
