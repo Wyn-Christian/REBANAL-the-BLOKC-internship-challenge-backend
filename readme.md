@@ -95,6 +95,4 @@ This endpoint returns the balance of a specific wallet address on a given blockc
 
 ## Additional Notes
 
-- The application uses Moralis for interacting with the blockchain. Ensure that your Moralis API key is correctly set in the `.env` file.
-
 - The `/demo` endpoint provides a sample usage of Moralis to get the native balance for a hardcoded wallet address on the Ethereum blockchain.
