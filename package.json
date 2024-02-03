@@ -7,8 +7,12 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "intership",
+    "The BLOKC",
+    "Challenge"
+  ],
+  "author": "Wyn Christian D. Rebanal",
   "license": "ISC",
   "dependencies": {
     "@moralisweb3/common-evm-utils": "^2.24.2",
