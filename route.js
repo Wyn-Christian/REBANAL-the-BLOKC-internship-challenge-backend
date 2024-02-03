@@ -31,7 +31,7 @@ router.get("/nft/:walletAddress", async (req, res) => {
   res.send({
     message: "Task 1 - Get NFTs owned by given wallet address",
     address: walletAddress,
-    nfts: response.result,
+    owned_nfts: response.result,
   });
 });
 

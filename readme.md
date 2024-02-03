@@ -64,8 +64,8 @@ This endpoint queries a specific wallet on a given blockchain network and return
   {
     "message": "Task 1 - Get NFTs owned by given wallet address",
     "address": "0xff3879b8a363aed92a6eaba8f61f1a96a9ec3c1e",
-    "nfts": [
-      /* List of NFTs */
+    "owned_nfts": [
+      /* List of owned NFTs */
     ]
   }
   ```
