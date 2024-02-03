@@ -27,8 +27,8 @@ This repository contains the solution for the INTERN01-BACKEND-WEB3 internship c
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/internship-challenge.git
-   cd internship-challenge
+   git clone https://github.com/Wyn-Christian/REBANAL-the-BLOKC-internship-challenge-backend.git
+   cd REBANAL-the-BLOKC-internship-challenge-backend
    ```
 
 2. Install dependencies:
